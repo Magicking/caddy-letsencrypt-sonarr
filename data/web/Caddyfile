@@ -1,0 +1,13 @@
+snr.6120.eu snr.6l20.eu {
+  proxy / http://sonarr:8989/
+  tls s@6120.eu
+  log stdout
+}
+
+6120.eu 6l20.eu {
+  root /var/www/html
+  log stdout
+  errors stdout
+  tls s@6120.eu
+  ext .html .htm
+}

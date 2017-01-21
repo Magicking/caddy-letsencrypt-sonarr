@@ -1,0 +1,18 @@
+version: '2'
+services:
+  caddy:
+    image: zzrot/alpine-caddy
+    networks:
+      - default
+      - sonarr
+    ports:
+      - 163.172.101.111:80:80
+      - 163.172.101.111:443:443
+    volumes:
+      - ~/caddy-letsencrypt-sonarr/data/web/Caddyfile:/etc/Caddyfile
+      - ~/caddy-letsencrypt-sonarr/data/web/caddycerts:/root/.caddy
+      - ~/caddy-letsencrypt-sonarr/data/web/www:/var/www/html
+networks:
+  sonarr:
+    external:
+      name: sonarr_default

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  sonarr:
+    image: linuxserver/sonarr
+    volumes:
+      - /dev/rtc:/dev/rtc:ro
+      - ~/caddy-letsencrypt-sonarr/data/sonarr/appdata:/config
+      - ~/caddy-letsencrypt-sonarr/data/sonarr/tv:/tv
+      - ~/caddy-letsencrypt-sonarr/data/sonarr/downloads:/downloads
