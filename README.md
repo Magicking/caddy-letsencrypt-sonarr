@@ -5,6 +5,13 @@ THIS PROJECT IS AN EXAMPLE, DO NOT CHANGE NAMES AND USE IT
 THERE IS NO AUTHENTIFICATION SCHEME AND AS SUCH IS OPEN TO
 THE WORLD
 
+Documentation
+-------------
+https://caddyserver.com/docs
+https://sonarr.tv/
+https://github.com/Sonarr/Sonarr
+https://docs.docker.com/compose/compose-file/
+
 Directory structure:
 --------------------
 
