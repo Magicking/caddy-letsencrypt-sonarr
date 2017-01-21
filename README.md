@@ -7,9 +7,13 @@ THE WORLD
 
 Documentation
 -------------
+
 https://caddyserver.com/docs
+
 https://sonarr.tv/
+
 https://github.com/Sonarr/Sonarr
+
 https://docs.docker.com/compose/compose-file/
 
 Directory structure:
